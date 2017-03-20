@@ -429,7 +429,7 @@ a.link-out:hover {
 }
 
 .head-bottom-area {
-    background: #f8cf27 none repeat scroll 0 0;
+    background: #2CC0CE none repeat scroll 0 0;
     z-index: 999999 !important;
 }
 
@@ -465,7 +465,7 @@ a.link-out:hover {
 
 .mainmenu-area ul.nav.navbar-nav li a:hover,
 .mainmenu-area ul.nav.navbar-nav li.active {
-    background: #ebc219;
+    background: #B9489B;
 }
 
 .mainmenu-area ul.nav.navbar-nav li {
@@ -2299,7 +2299,7 @@ ul.degins li::after,
 .Modern-Slider .NextArrow:hover,
 .sin-pricing-table.active,
 a.pricing-btn {
-    background-color: #F8CF27;    /* -- Your primary color code here -- */
+    background-color: #2CC0CE;    /* -- Your primary color code here -- */
 }
 
 
@@ -2327,7 +2327,7 @@ a.author,
 .slider-text h1 span,
 .sidebar .widget ul li a:hover,
 .sidebar .sin-testimonial .quote-icon {
-    color: #F8CF27;                /* -- Your text color code here -- */
+    color: #2CC0CE;                /* -- Your text color code here -- */
 }
 
 /* Secondary Colors */
