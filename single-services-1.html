@@ -57,8 +57,10 @@
 
 <body>
 
+    <div id="preloader"></div>
+
     <!-- Color Palate -->
-    <div class="color-palate visible-palate">
+<!--     <div class="color-palate visible-palate">
         <div class="color-trigger">
             <i class="icofont icofont-tools-alt-2"></i>
         </div>
@@ -67,7 +69,7 @@
         </div>
         <div class="various-color fix">
             <div class="colors-list">
-                <span class="palate default-color"></span>
+                <span class="palate default-color active"></span>
                 <span class="palate green-color"></span>
                 <span class="palate red-color"></span>
                 <span class="palate blue-color"></span>
@@ -78,7 +80,7 @@
         </div>
         <div class="secondary-color fix">
             <div class="secondary-colors-list">
-                <span class="palate black-color"></span>
+                <span class="palate black-color actives"></span>
                 <span class="palate deepblue-color"></span>
             </div>
         </div>
@@ -88,7 +90,7 @@
             when you purchase this.</span>
         </div>
 
-    </div>
+    </div> -->
     <!-- /.End Of Color Palate -->
 
     <header class="header-area">
@@ -97,11 +99,13 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="logo">
-                            <a href="index-2.html"><img src="img/logo.png" alt=""></a>
+                            <a class="hidden-xs" href="/"><img src="img/logo.png" alt=""></a>
+                            <a class="visible-xs" href="/"><img src="img/logo3.png" alt=""></a>
                         </div>
                         <!-- /.End Of Logo -->
                     </div>
-                    <div class="col-sm-9 hidden-xs">
+                    <div class="col-sm-1 hidden-xs"></div>
+                    <div class="col-sm-8 hidden-xs">
                         <div class="head-top-right fix">
 
                             <div class="sin-info fix">
@@ -109,8 +113,8 @@
                                     <i class="icofont icofont-social-google-map"></i>
                                 </div>
                                 <div class="info-content">
-                                    <span>24, Lane Street<br>
-                           New York, USA</span>
+                                    <span>Chișinău, MD<br>Str. Calea Ieșilor 8, <br> et. 6
+                           </span>
                                 </div>
                             </div>
                             <!-- /.End Of Seven -->
@@ -120,7 +124,7 @@
                                     <i class="icofont icofont-clock-time"></i>
                                 </div>
                                 <div class="info-content">
-                                    <span>9am - 7pm <br> Mon - Sat</span>
+                                    <span>9:00 - 17:00 <br> Luni - Vineri</span>
                                 </div>
                             </div>
                             <!-- /.End Of Seven -->
@@ -130,13 +134,13 @@
                                     <i class="icofont icofont-contacts"></i>
                                 </div>
                                 <div class="info-content">
-                                    <a href="mailto:info@company.com">info@company.com</a>
-                                    <a href="tel:+0213421543">+021-3421-543</a>
+                                    <a href="mailto:office@topcontrol.md">office@topcontrol.md</a>
+                                    <a href="tel:+373 999 999">+373 999 999</a>
                                 </div>
                             </div>
                             <!-- /.End Of Seven -->
 
-                            <div class="sin-info border-none fix">
+                            <!--<div class="sin-info border-none fix">
                                 <div class="search-form fix">
                                     <form action="../../../external.html?link=http://graphchilly.com/demos/company/search.php">
                                         <input type="text" name="s" placeholder="Type to search" id="search">
@@ -145,7 +149,7 @@
                                         </div>
                                     </form>
                                 </div>
-                            </div>
+                            </div>-->
                             <!-- /.End Of Seven -->
 
                         </div>
@@ -160,7 +164,7 @@
                     <div class="mainmenu-area">
                         <nav class="navigation-menus">
                             <ul class="mobile-menu nav navbar-nav">
-                                <li><a href="index-2.html">Home <i class="hover-ind fa fa-caret-down" aria-hidden="true"></i></a>
+                                <!--<li class="active"><a href="/">Acasa <i class="hover-ind fa fa-caret-down" aria-hidden="true"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="index-clean.html">Home - Cleaning Service</a></li>
                                         <li><a href="index-factory.html">Home - Factory</a></li>
@@ -168,30 +172,31 @@
                                         <li><a href="index-finance.html">Home - Finance</a></li>
                                         <li><a href="index-startup.html">Home - StartUp</a></li>
                                     </ul>
-                                </li>
-                                <li><a href="about.html">About</a></li>
+                                </li>-->
+                                <li class="active"><a href="/">Acasa</a></li>
+                                <li><a href="/">Despre Noi</a></li>
 
-                                <li class="active"><a href="services.html">Services <i class="hover-ind fa fa-caret-down" aria-hidden="true"></i></a>
+                                <li class="dropdown-trigger"><a href="/">Servicii<i class="hover-ind fa fa-caret-down" aria-hidden="true"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="services.html">Service Page</a></li>
-                                        <li><a href="single-services-1.html">Web Design</a></li>
-                                        <li><a href="single-services-2.html">Graphic Design</a></li>
-                                        <li><a href="single-services-3.html">WordPress Customization</a></li>
+                                        <li><a href="/ ">Inspectii</a></li>
+                                        <li><a href="/">Consultanta</a></li>
+                                        <li><a href="/">Testari de laborator</a></li>
+                                        <!--<li><a href="single-services-3.html">WordPress Customization</a></li>
                                         <li><a href="single-services-4.html">Theme Development</a></li>
                                         <li><a href="single-services-5.html">Plugin Development</a></li>
-                                        <li><a href="single-services-6.html">3D Design</a></li>
+                                        <li><a href="single-services-6.html">3D Design</a></li>-->
                                     </ul>
                                 </li>
 
-                                <li><a href="projects.html">Projects <i class="hover-ind fa fa-caret-down" aria-hidden="true"></i></a>
+                                <!--<li><a href="projects.html">Projects <i class="hover-ind fa fa-caret-down" aria-hidden="true"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="projects-v2.html">Project 2 column</a></li>
                                         <li><a href="projects.html">Project 3 column</a></li>
                                         <li><a href="projects-v3.html">Project 4 column</a></li>
                                     </ul>
-                                </li>
-                                <li><a href="price.html">Price</a></li>
-                                <li><a href="news.html">News <i class="hover-ind fa fa-caret-down" aria-hidden="true"></i></a>
+                                </li>-->
+                                <li><a href="/">Downloads</a></li>
+                                <!--<li><a href="news.html">News <i class="hover-ind fa fa-caret-down" aria-hidden="true"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="news.html">News 3 column Left Sidebar</a></li>
                                         <li><a href="news-v2.html">News 3 column Right Sidebar</a></li>
@@ -206,11 +211,11 @@
                                         <li><a href="quote.html">Get A Quote</a></li>
                                         <li><a href="404.html">404 Page</a></li>
                                     </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                </li>-->
+                                <li><a href="/">Contact</a></li>
                             </ul>
                         </nav>
-                        <a href="quote.html" class="button button-hover quote-btn">get a free quote</a>
+                        <a href="/" class="button button-hover quote-btn">obtine o estimare</a>
                     </div>
                 </div>
             </div>
@@ -388,45 +393,45 @@
     </div>
     <!-- /.End Of Page Internal Content -->
 
-    <!-- Footer Area
+        <!-- Footer Area
         =========================== -->
     <footer id="footer-area">
         <div class="footer-top section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="widget widget_text">
                             <div class="footer-logo">
-                                <img src="img/logo-2.png" alt="">
+                                <img src="img/logo3.png" alt="">
                             </div>
-                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio</p>
+                            <p>WORKING TOGETHER FOR YOUR SUCCESS!</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="widget widget_links fix">
-                            <h3 class="widget-title">Important Links</h3>
+                            <h3 class="widget-title">Link-uri utile</h3>
                             <ul class="site_map_links">
-                                <li><a href="#">Legal Notice</a></li>
-                                <li><a href="#">Sitemap</a></li>
-                                <li><a href="#">Payment Method</a></li>
-                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Despre Noi</a></li>
+                                <li><a href="#">Servicii</a></li>
+                                <li><a href="#">Downloads</a></li>
+                                <li><a href="#">Inspectii</a></li>
                             </ul>
                             <ul class="page-links">
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Projects</a></li>
-                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="widget">
-                            <h3 class="widget-title">Contact Us</h3>
+                            <h3 class="widget-title">Contact</h3>
                             <p>Euis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat.</p>
-                            <a href="#" class="button contact-btn">CONTACT US</a>
+                            <a href="#" class="button contact-btn">CONTACT</a>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <!--<div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="widget">
                             <h3 class="widget-title">Newsletter Subscription</h3>
                             <div class="widget">
@@ -439,7 +444,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -447,7 +452,7 @@
             <div class="container bb-top foo-padding">
                 <div class="row">
                     <div class="col-sm-6 copyright">
-                        <span>&copy; 2016 Copyright, the company. A product by D360-Studio</span>
+                        <span>&copy; 2017 Copyright, TopControl.</span>
                     </div>
                     <div class="col-sm-6 text-right">
                         <div class="social-links">
