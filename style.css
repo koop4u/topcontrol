@@ -222,7 +222,9 @@ a.link-out:hover {
 
 .section-title h2,
 .cta-text > h2 {
-    font-family: 'uni_sansheavy_caps';
+    font-family: 'arial,sans-serif';
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .section-title h2 {
